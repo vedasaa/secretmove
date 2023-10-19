@@ -20,7 +20,7 @@ def checking():
         "Accept-Encoding": "gzip, deflate, br",
         "Accept-Language": "en-US,en;q=0.9",
         "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.82 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:41.0) Gecko/20100101 Firefox/41.0"
     }
     result = requests.post(url, json={"isBridgeLayer": False,"tcAddress":"0x60992096FfA675eb58ceDb4536C88259C5983f14","tcTokenID":"0x111808abe352c8003e0effcc04998eab26cebe3c"}, headers=h)
     return result
