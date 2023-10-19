@@ -30,6 +30,6 @@ userID = '648235175'
 tele = f'https://api.telegram.org/bot{token}/sendMessage'
 while True:
     #result = float(checking().json()["data"]["withdrawFee"])/1000000000000000000
-    print(checking().reason)
+    print(checking().text)
     target = 20000000000000/1000000000000000000
     
